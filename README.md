@@ -1,6 +1,5 @@
 Pure
 ====
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/yahoo/pure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![Pure](https://cloud.githubusercontent.com/assets/449779/5291099/1b554cca-7b03-11e4-9157-53a12d91b34a.png)][Pure]
 
@@ -8,11 +7,13 @@ A set of small, responsive CSS modules that you can use in every web project.
 [http://purecss.io/][Pure]
 
 [![Build Status](http://img.shields.io/travis/yahoo/pure.svg?style=flat)][Build Status]
+[![Dependency Status](https://david-dm.org/yahoo/pure/dev-status.svg)](https://david-dm.org/yahoo/pure?type=dev)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/yahoo/pure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 **Use From the CDN:**
 
 ```html
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/pure-min.css">
 ```
 
 Note: You can [customize which Pure modules you need][customize].
@@ -75,7 +76,7 @@ You can include the Pure CSS file in your project by fetching it from Yahoo's
 CDN:
 
 ```html
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/pure-min.css">
 ```
 
 You can also install Pure using [Bower][], using the following command:
@@ -122,7 +123,7 @@ conventions of the files in the `build/` directory follow these rules:
 * `*-min.css`: A minified file version of the files of the same name.
 
 * `pure.css`: A rollup of all `[module].css` files in the `build/` dir. This is
-  a responsive roll-up of everything, non-minified.
+  a responsive roll-up of everything, non-minified.  Note: does not contain responsive grids with @media queries.
 
 * `pure-min.css`: Minified version of `pure.css` that should be used in
   production.
@@ -133,7 +134,7 @@ conventions of the files in the `build/` directory follow these rules:
 * `pure-nr-min.css`: Minified version of `pure-nr.css` that should be used in
   production.
 
-* `grids-responsive.css`: Unminified version of Pure's grid stylesheet which 
+* `grids-responsive.css`: Unminified version of Pure's grid stylesheet which
   includes @media queries.
 
 * `grids-responsive-min.css`: Minified version of `grids-responsive.css` that
