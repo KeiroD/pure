@@ -1,6 +1,27 @@
 Pure Change History
 ===================
 
+1.0.0 (2017-06-05)
+------------------
+
+The community has battle-tested Pure and provided valuable feedback. We are now at a place where we can guarantee backwards compatibility through all subsequent 1.x releases.
+
+We hope you have found Pure to be useful and unobtrusive.. To provide feedback, please comment on this GitHub issue, or file a new issue to have it tracked as a separate thread.
+
+
+0.6.2 (2017-01-05)
+------------------
+
+* Added proper module API for node users [#619]
+
+### Buttons
+
+* Added Button Groups to Pure [#621]
+
+### Menus
+
+* Reset style for horizontal dropdown separator [#620]
+
 0.6.1 (2016-10-12)
 ------------------
 
