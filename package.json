@@ -13,7 +13,7 @@
   "files": "build/",
   "devDependencies": {
     "autoprefixer": "^7.0.0",
-    "bower": "^1.3.7",
+    "bower": "^1.8.2",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.0.0",
@@ -24,10 +24,10 @@
     "grunt-contrib-cssmin": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-css-selectors": "^1.1.0",
-    "grunt-postcss": "^0.8.0",
+    "grunt-postcss": "^0.9.0",
     "grunt-pure-grids": "^1.0.0",
     "grunt-stripmq": "0.0.6",
-    "tap": "^10.0.0"
+    "tap": "^10.7.2"
   },
   "description": "Pure is a ridiculously tiny CSS library you can use to start any web project.",
   "bugs": {
@@ -36,6 +36,7 @@
   "homepage": "http://purecss.io",
   "main": "index.js",
   "browser": "build/pure-min.css",
+  "style": "build/pure.css",
   "keywords": [
     "pure",
     "css",
